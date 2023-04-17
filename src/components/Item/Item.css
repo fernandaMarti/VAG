@@ -1,0 +1,10 @@
+.dermo {
+    display: block;
+    width: 300px;
+}
+.dermo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+}
