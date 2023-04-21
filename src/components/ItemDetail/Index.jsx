@@ -1,4 +1,3 @@
-import './ItemDetail.css';
 import React, { useState } from 'react';
 import {useCartContext} from '../../Context/CartContext';
 import ItemCount from '../ItemCount/Index';
@@ -17,8 +16,8 @@ export const ItemDetail = ({ data }) => {
             <div className="detail">
                 <img className="detail_image" src={data.image} alt="" />
                     <div className="content">
-                        <h1>{data.title}</h1>
-                        <h2>{data.detalle}</h2>
+                        <h3>{data.title}</h3>
+                        <h4>{data.detalle}</h4>
                         <p>{data.detail}</p>
                         { goToCart ? (
                                 <Link to='/Cart'>Terminar compra</Link>

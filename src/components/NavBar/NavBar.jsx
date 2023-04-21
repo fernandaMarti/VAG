@@ -8,7 +8,8 @@ export const NavBar= () => {
     <>
     
     <NavContainer className="navbar navbar-expand-lg navbar-light bg-light">
-   <h2>Institute<span>VAG</span></h2>
+   
+    <NavLink className= "navbar-brand" to='/'><h2>Institute<span>VAG</span></h2></NavLink>
     
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
@@ -46,22 +47,21 @@ h2{
     font-weight: bold;
   }
 }
-ul.navbar-nav{
-padding: .4rem;
-background-color: white;
+.navbar-nav{
+font-weight: bold;
+padding: .8rem;
 display: flex;
-align-items: rigth;
+align-items: center;
 justify-content: space-between;
-
-{
-  display: flex;
-  align-items: rigth;
+text-align: center;
 
 }
 
+}
 li.nav-item{
+ 
   color: black;
   text-decoration: none;
   margin-right: 1rem;
-
+  
 }`

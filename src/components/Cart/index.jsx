@@ -12,7 +12,7 @@ const Cart = () => {
 			name: "Fernanda",
 			email: "Fer@gmail.com",
 			phone: "648966345",
-			address: "Siempre viva",
+			address: "Siempre viva 123",
 		},
 		items: cart.map((product) => ({
 			id: product.id,
@@ -33,7 +33,7 @@ const Cart = () => {
 		return (
 			<>
 				<p>El carrito está vacío</p>
-				<Link to="/">Realizar compras</Link>
+				<Link to="/"style={{ backgroundColor:"rgb(131, 78, 147"}}>Realizar compras</Link>
 			</>
 		);
 	}
@@ -43,10 +43,43 @@ const Cart = () => {
 			{cart.map((product) => (
 				<ItemCart key={product.id} product={product} />
 			))}
-			<p>Total: €{totalPrice()}</p>
-			<button onClick={handleClick}>Emitir compra</button>
+			<p className="finally">Total: €{totalPrice()}</p>
+			<button className="pay" onClick={handleClick}>Pagar</button>
+			<div className="container" style={{marginTop: "20px"}}>
+            <form onSubmit={order} ref={order}>
+                <div className="mb-3">
+                    <label htmlFor="nombre" className="form-label">Nombre y Apellido</label>
+                    <input type="text" className="form-control" name="nombre" />
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="email" className="form-label">Email</label>
+                    <input type="email" className="form-control" name="email" />
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="email2" className="form-label">Repetir Email</label>
+                    <input type="email" className="form-control" name="email2" />
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="dni" className="form-label">DNI</label>
+                    <input type="number" className="form-control" name="dni" />
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="Móbil" className="form-label">Número telefónico</label>
+                    <input type="number" className="form-control" name="celular" />
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="dirección" className="form-label">Dirección</label>
+                    <input type="text" className="form-control" name="direccion" />
+                </div>
+                <button type="submit" className="btn btn-primary">Finalizar Compra</button>
+            </form>
+
+        </div>
 		</>
 	);
 };
 
-export default Cart;
+  
+                
+
+export default Cart;
