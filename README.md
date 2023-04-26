@@ -3,6 +3,7 @@
 - Create react app
 - Bootstrap
 - Firebase
+- Stiled-Components
 - Toastify
 
 
