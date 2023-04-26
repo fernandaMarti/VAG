@@ -1,3 +1,24 @@
+### Tienda de productos dermo-cosmetológicos :fa-flask:
+- Ecommerce desarollado con React
+- Create react app
+- Bootstrap
+- Firebase
+- Toastify
+- Sweet Alert 2
+
+Esta es una App creada para el curso de ReactJs de la plataforma de educación Coderhouse de la comisión 39605.
+#### Acerca de mi:
+Soy Fernanda Marti, estudiante de desarrollo web. He realizado este trabajo como parte de los desafíos planteados desde la comunidad educativa Coderhouse. La idea surgió desde un proyecto real cercano y por eso decidí utilizarlo como una oportunidad para crear el ecommerce de la tienda.
+
+#### Cómo ejecutar el proyecto:
+- Git clone
+- npm install
+- npm run start
+
+#### Repositorio de Github:
+https://github.com/fernandaMarti/VAG.git
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
