@@ -4,7 +4,7 @@
 - Bootstrap
 - Firebase
 - Toastify
-- Sweet Alert 2
+
 
 Esta es una App creada para el curso de ReactJs de la plataforma de educación Coderhouse de la comisión 39605.
 #### Acerca de mi:
