@@ -1,4 +1,4 @@
-### Tienda de productos dermo-cosmetológicos :fa-flask:
+### Tienda de productos dermo-cosmetológicos
 - Ecommerce desarollado con React
 - Create react app
 - Bootstrap
