@@ -4,7 +4,7 @@
 - Bootstrap
 - Firebase
 - Stiled-Components
-- Toastify
+
 
 
 Esta es una App creada para el curso de ReactJs de la plataforma de educación Coderhouse de la comisión 39605.
