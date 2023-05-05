@@ -4,6 +4,7 @@
 - Bootstrap
 - Firebase
 - Stiled-Components
+- Toastify
 
 
 
